@@ -1,0 +1,150 @@
+.fondoHeader{
+    background: #F3F5FC;
+}
+
+header {
+    padding: 2em;
+}
+
+main{
+    background: linear-gradient(#F3F5FC, #9CA89E);
+    display: flex;
+}
+
+.principal{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.cajaEncriptador{
+    width: 40%;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.cajaMensaje{
+    width: 40%;
+    margin: 0 auto;
+}
+
+.inputTexto{
+    background: transparent;
+    border: none;
+    resize: none;
+    margin: 2em 10% ;
+    position: relative;
+    font-style: italic;
+    color: #aaaaaa;
+   
+}
+
+.inputTexto::-webkit-scrollbar {
+    display: none;
+}
+
+.mensaje{
+    background: transparent;
+    background-image: url(1.png);
+    background-repeat: no-repeat;
+    border: none;
+    resize: none;
+    margin: 2em 10% ;
+    position: relative;
+    font-style: italic;
+    color: #aaaaaa;
+}
+
+.mensaje::-webkit-scrollbar {
+    display: none;
+}
+
+.starstImagen{
+   position: relative;
+   float: right;
+   width: 30%;
+}
+
+.principal p{
+    font-style: italic;
+}
+
+.botonEncriptar{
+    text-decoration: none;
+    background: #0A3871;
+    width: 150px;
+    height: 50px;
+    border: 1px solid lightblue;
+    border-radius: 15px;
+    font-size: 1em;
+    margin: 3em 3em;
+    color: #ffffff;
+}
+
+.botonEncriptar:hover{
+    text-decoration: underline;
+    background: #0A3871;
+    width: 150px;
+    height: 50px;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    font-size: 1em;
+    margin: 3em 3em;
+    color: #CCCCCC;
+}
+
+.botonDesencriptar{
+    text-decoration: none;
+    background: #CCCCCC;
+    width: 150px;
+    height: 50px;
+    border: 1px solid lightblue;
+    border-radius: 15px;
+    font-size: 1em;
+    margin: 3em 3em;
+    color: #000000;
+}
+
+.botonDesencriptar:hover{
+    text-decoration: underline;
+    background: #cccccc;
+    width: 150px;
+    height: 50px;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    font-size: 1em;
+    margin: 3em 3em;
+    color: #000000;
+}
+
+.copiar{
+    text-decoration: none;
+    background: #0A3871;
+    width: 150px;
+    height: 50px;
+    border: 1px solid lightblue;
+    border-radius: 15px;
+    font-size: 1em;
+    margin: 3em 3em;
+    color: #ffffff;
+}
+
+.copiar:hover{
+    text-decoration: underline;
+    background: #0A3871;
+    width: 150px;
+    height: 50px;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    font-size: 1em;
+    margin: 3em 3em;
+    color: #CCCCCC;
+}
+
+footer{
+    color: #ffffff;
+    text-align: center;
+    font-size: 1em;
+    padding: 0.5em;
+    background: #000000;
+}
+

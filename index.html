@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+
+        <title>Encriptador</title>
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header class="fondoHeader">
+            <img src="Logo.png">
+        </header>
+
+        <main>
+
+            <section class="cajaEncriptador">
+                <textarea name="encriptador" cols="40" rows="30" class="inputTexto" placeholder="Ingrese el texto aqui..."></textarea>
+
+                <p>🛈 Solo letras minusculas y sin acento.</p>
+                <button class="botonEncriptar" onclick="botonEncriptar()">Encriptar</button>
+                <button class="botonDesencriptar" onclick="botonDesencriptar()">Desencriptar</button>
+
+            </section>
+
+            <section class="cajaMensaje">
+                <textarea name="desencriptador"cols="40" rows="30" class="mensaje" ></textarea>
+                <p>­</p>
+                <button class="copiar" onclick="copiar()">Copiar</button>
+            </section>
+           
+
+        </main>
+        <script src="script.js"></script>
+    </body>
+
+    <footer>
+        <p>Creado por David Jara ©Copyright Alura Latam - 2022. </p>
+    </footer>
+</html>
